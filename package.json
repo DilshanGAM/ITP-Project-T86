@@ -1,0 +1,23 @@
+{
+  "name": "samod",
+  "version": "1.0.0",
+  "description": "Administrator application to manage a construcion company",
+  "main": "index.js",
+  "scripts": {
+    
+    "start": "concurrently \"cd frontend && npm start\" \" cd backend && npm run devStart\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DilshanGAM/ITP-Project-T86.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DilshanGAM/ITP-Project-T86/issues"
+  },
+  "homepage": "https://github.com/DilshanGAM/ITP-Project-T86#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
